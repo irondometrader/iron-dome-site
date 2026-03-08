@@ -1,0 +1,17 @@
+body{
+background:#0b1220;
+color:white;
+font-family:Arial;
+margin:0;
+}
+
+.hero{
+text-align:center;
+padding:80px;
+background:#020617;
+}
+
+.intro{
+text-align:center;
+padding:40px;
+}
