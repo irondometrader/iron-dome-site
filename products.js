@@ -33,3 +33,9 @@ card.innerHTML=`
 container.appendChild(card)
 
 })
+
+{
+name:"Trading Journal Pro",
+image:"images/journal.jpg",
+link:"product/journal.html"
+}
