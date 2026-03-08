@@ -4,73 +4,11 @@
 <head>
 
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 
 <title>IRON DOME TRADER</title>
 
-<style>
-
-body{
-background:#071021;
-color:white;
-font-family:Arial;
-margin:0;
-}
-
-header{
-text-align:center;
-padding:80px;
-background:linear-gradient(#02142c,#000);
-}
-
-h1{
-font-size:48px;
-}
-
-.container{
-max-width:1200px;
-margin:auto;
-padding:40px;
-}
-
-.products{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-gap:30px;
-}
-
-.card{
-background:#0f1b33;
-padding:20px;
-border-radius:12px;
-}
-
-.card img{
-width:100%;
-border-radius:10px;
-}
-
-.buy{
-background:#00c3ff;
-border:none;
-padding:12px;
-width:100%;
-border-radius:8px;
-margin-top:10px;
-font-weight:bold;
-}
-
-.payment{
-text-align:center;
-padding:60px;
-}
-
-.contact{
-text-align:center;
-padding:40px;
-}
-
-</style>
+<link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -79,80 +17,20 @@ padding:40px;
 <header>
 
 <h1>IRON DOME TRADER</h1>
-
 <p>Professional Trading Tools</p>
 
 </header>
 
-<div class="container">
+<section class="products">
 
 <h2>Products</h2>
 
-<div class="products">
+<div class="grid" id="products"></div>
 
-<div class="card">
+</section>
 
-<img src="https://picsum.photos/500/300">
-
-<h3>Iron Dome Trader EA</h3>
-
-<p>Professional EA for MT5 trading automation.</p>
-
-<button class="buy">Purchase</button>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="payment">
-
-<h2>Payment</h2>
-
-<p>
-
-Bank : YOUR BANK<br>
-Account Name : YOUR NAME<br>
-Account Number : XXX-XXX-XXXX
-
-</p>
-
-<img src="qr.png" width="200">
-
-</div>
-
-<div class="container">
-
-<h2>Submit Payment Slip</h2>
-
-<form action="https://formspree.io/f/yourformid" method="POST">
-
-<input type="text" name="name" placeholder="Your Name" required><br><br>
-
-<input type="text" name="line" placeholder="LINE ID"><br><br>
-
-<input type="text" name="phone" placeholder="Phone"><br><br>
-
-<input type="file" name="slip"><br><br>
-
-<button class="buy">Submit</button>
-
-</form>
-
-</div>
-
-<div class="contact">
-
-<h2>Contact</h2>
-
-<p>LINE : @588vxxjc</p>
-
-<p>Telegram : @IRON_DOME_TRADER</p>
-
-<p>Email : irondometrader@gmail.com</p>
-
-</div>
+<script src="products.js"></script>
 
 </body>
+
 </html>
